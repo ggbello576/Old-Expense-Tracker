@@ -1,3 +1,5 @@
+//l'head del file spesa
+
 #ifndef SPESA_H
 #define SPESA_H
 
