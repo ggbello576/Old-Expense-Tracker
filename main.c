@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include "spesa.h"
+#include "spesa.c"
 
 
 int main(void){
@@ -14,7 +15,9 @@ int main(void){
     printf("║    EXPENSE TRACKER     ║\n");
     printf("╚════════════════════════╝\n");
     printf("\n");
-
+    //salvataggio spese
+    Spesa spese[100];
+    int numerospese;
     //meccanismo di scelta
     int scelta;
     do{
